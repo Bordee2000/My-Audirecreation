@@ -1,0 +1,28 @@
+.footer-all{
+    width: 100%;
+    background-color:#4C4C4C;
+}
+.footer-nav{
+    display: flex;
+    align-items: center;
+    color: hsl(0,0%,100%);
+    font-size: .8rem;
+}
+.ft-icon{
+    width: 70%;
+    margin-right: 50px;
+}
+li{
+    height:30%;
+    font-size: 1rem;
+    color: hsl(0,0%,100%);
+    padding: 0.5em;
+    list-style-type: none;
+}
+.f1 li, .f1{
+    font-size: 14px;
+    cursor: pointer;
+}
+.f1 li:hover{
+    color: #9e9e9e;
+}

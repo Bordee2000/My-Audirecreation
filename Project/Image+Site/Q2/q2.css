@@ -1,0 +1,30 @@
+.banner{
+    font-size: 36px;
+    
+}
+
+.p_left{
+    width: 99%;
+    /* margin:0 auto; */
+    font-size: 18px;
+
+}
+.scale{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -120px;
+    margin-bottom: 3em;
+}
+.link{
+    margin-bottom: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    
+}
+.col-6{
+    margin-top: auto;
+    margin-bottom: auto;
+    z-index: 1;
+    background-color: white;
+}

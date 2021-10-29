@@ -1,0 +1,236 @@
+.banner{
+    margin-bottom: 50px;
+    
+}
+.picture_banner{
+    max-height: 650px;
+    object-fit: cover;
+}
+.top-left {
+    position: absolute;
+    top: 7em;
+    left: 60px;
+    
+}
+.h1_banner{
+    font-size: 36px;
+    color: white;
+}
+.pdf_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 102px;
+}
+.icon{
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.middle{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p_middle{
+    text-align: center; 
+    width: 52%;
+    margin:0 auto;
+    font-size: 16.5px;
+    margin-bottom: 42px;    
+}
+.h1_middle{
+    font-size: 56px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+.h1_power{
+    font-size: 36px;
+    margin-bottom: 20px;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+}
+.picture_showing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.picture_sh{
+    width: 75%;
+}
+.image_slide{
+    margin-right: 5px;
+}
+.circle{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: inline-block;
+    height: 45px;
+    position: absolute;
+    right: 12px;
+    width: 45px;
+    z-index: 3;
+    transform: rotate(45deg);
+}
+.prior{
+    color: #fff;
+}
+.p_hidden{
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+    
+}
+.picture_bar{
+    margin-bottom: 2em;
+}
+.note{
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.picture_middle{
+    margin-bottom: 3em;
+}
+
+.p_left{
+    
+    width: 60%;
+    /* margin:0 auto; */
+    font-size: 19.2px;
+    margin-bottom: 42px;   
+    margin-left: 10em; 
+}
+.h1_left{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 6em;
+}
+.exterior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.circle_main{
+    text-align: center;
+}
+.circle_2{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.circle_3{
+    background-color: #fff;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.hidden{
+    padding-top: 15em;
+    color: white;
+    background-color: rgb(76, 76, 76);
+    height: 0; 
+    display: none;
+    padding-bottom: 5em;
+}
+.hidden_h1{
+    margin-left: 20%;
+    margin-bottom: 5em;
+}
+.hidden_content{
+    margin-bottom: 5em;
+}
+.View{
+    margin-right: 2em;
+}
+.View:link{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:visited{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:hover{
+    margin-right: 2em;
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+.View:active{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View_active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.text-second{
+    color: gray;
+}
+.more_exterior{
+    margin-bottom: 2em;
+}
+
+
+.rotation{
+    transition-duration: .5s;
+}
+
+.notes{
+    margin-top: 1em;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+.notes_final{
+    margin-top: 1em;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 5em;
+    font-size: 14px;
+}
+.boxs{
+    margin-top: 40%;
+    margin-bottom: auto;
+    padding-left: 10%;
+}
+.scale{
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}

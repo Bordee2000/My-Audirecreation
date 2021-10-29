@@ -1,0 +1,247 @@
+.banner{
+    margin-bottom: 50px;
+}
+.top-left {
+    position: absolute;
+    top: 7em;
+    left: 60px;
+    
+}
+.h1_banner{
+    font-size: 36px;
+}
+.pdf_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 102px;
+}
+.icon{
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.middle{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p_middle{
+    text-align: center; 
+    width: 60%;
+    margin:0 auto;
+    font-size: 16.5px;
+    margin-bottom: 42px;    
+}
+.h1_middle{
+    font-size: 56px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.picture_showing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.picture_sh{
+    width: 75%;
+}
+.image_slide{
+    margin-right: 5px;
+}
+.circle{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: inline-block;
+    height: 45px;
+    position: absolute;
+    right: 12px;
+    width: 45px;
+    z-index: 3;
+    transform: rotate(45deg);
+}
+
+.p_hidden{
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+}
+.picture_bar{
+    margin-bottom: 2em;
+}
+.p_left{
+    
+    width: 60%;
+    /* margin:0 auto; */
+    font-size: 19.2px;
+    margin-bottom: 42px;   
+    margin-left: 10em; 
+}
+.h1_left{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 6em;
+}
+.exterior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.circle_main{
+    text-align: center;
+}
+.circle_2{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.circle_3{
+    background-color: #fff;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.hidden{
+    padding-top: 20em;
+    color: white;
+    background-color: rgb(76, 76, 76);
+    height: 0; 
+    display: none;
+    padding-bottom: 5em;
+}
+.hidden_h1{
+    margin-left: 20%;
+    margin-bottom: 5em;
+}
+.hidden_content{
+    margin-bottom: 10em;
+}
+.View{
+    margin-right: 2em;
+}
+.View:link{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:visited{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:hover{
+    margin-right: 2em;
+    text-decoration: none;
+    color: unset;
+}
+.View:active{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.text-second{
+    color: gray;
+}
+.View_active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+.more_exterior{
+    margin-bottom: 5em;
+}
+.third{
+    text-align: center;
+    margin-bottom: 4em;
+}
+.p_third{
+    text-align: center; 
+    width: 40%;
+    margin:0 auto;
+    font-size: 17px;
+    margin-bottom: 42px;    
+}
+.h1_third{
+    width: 45%;
+    font-size: 40px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.fourth{
+    text-align: center;
+    
+}
+.p_fourth{
+    text-align: center; 
+    width: 52.5%;
+    margin:0 auto;
+    font-size: 17px;
+    margin-bottom: 42px;    
+}
+.h1_fourth{
+    width: 55%;
+    font-size: 40px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.fifth{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+.p_fifth{
+    text-align: center; 
+    width: 52.5%;
+    margin:0 auto;
+    font-size: 17px;
+    margin-bottom: 42px;    
+}
+.h1_fifth{
+    width: 55%;
+    font-size: 40px;
+    text-align: center;
+    margin:0 auto;
+    margin-bottom: 20px;
+}
+.more_exterior_black{
+    padding-bottom: 8em;
+}
+.black{
+    background-color: black;
+}
+.circle_black{
+    padding-top: 2em;
+}
+.rotation{
+    transition-duration: .5s;
+}
+#x{
+    transition-duration: .5s;
+}

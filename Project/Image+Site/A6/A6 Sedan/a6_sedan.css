@@ -1,0 +1,213 @@
+.banner{
+    margin-bottom: 50px;
+    position: relative;
+    text-align: center;
+}
+.h1_banner{
+    color: white;
+    position: absolute;
+    font-size: 36px;
+    top: 40px;
+    right: 80px;
+}
+.pdf_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 102px;
+}
+.icon{
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.middle{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p_middle{
+    text-align: center; 
+    width: 51%;
+    margin:0 auto;
+    font-size: 16.5px;
+    margin-bottom: 42px;    
+}
+.h1_middle{
+    font-size: 56px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.picture_showing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.picture_sh{
+    width: 75%;
+}
+.image_slide{
+    margin-right: 5px;
+}
+.circle{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: inline-block;
+    height: 45px;
+    position: absolute;
+    right: 12px;
+    width: 45px;
+    z-index: 3;
+    transform: rotate(45deg);
+}
+
+.p_hidden{
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+}
+.picture_bar{
+    margin-bottom: 2em;
+}
+.p_left{  
+    width: 54%;
+    /* margin:0 auto; */
+    font-size: 17px;
+    margin-bottom: 42px;   
+    margin-left: 11.2em; 
+}
+
+.h1_left{
+    line-height: 1.5em;
+    font-size: 2.2rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 5.4em;
+}
+.exterior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.circle_main{
+    text-align: center;
+}
+.circle_2{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.circle_3{
+    background-color: #fff;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+    margin-top: 100px;
+}
+.hidden{
+    margin-top: -100px;
+    padding-top: 15em;
+    color: white;
+    background-color: rgb(76, 76, 76);
+    height: 0; 
+    display: none;
+    padding-bottom: 5em;
+}
+.hidden_h1{
+    margin-left: 20%;
+    margin-bottom: 5em;
+}
+.hidden_content{
+    margin-bottom: 10em;
+}
+.View{
+    margin-right: 2em;
+}
+.View:link{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:visited{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:hover{
+    margin-right: 2em;
+    text-decoration: none;
+    color: rgb(84, 84, 84);
+}
+.View:active{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.text-second{
+    color: gray;
+}
+.View_active{
+    color: white;
+    border-bottom: 2px solid white;
+}
+.more_exterior{
+    margin-bottom: 5em;
+}
+.third{
+    text-align: center;
+    margin-bottom: 4em;
+}
+
+.more_exterior_black{
+    padding-bottom: 8em;
+}
+.black{
+    background-color: black;
+}
+.circle_black{
+    padding-top: 2em;
+}
+.rotation{
+    transition-duration: .5s;
+}
+#x{
+    transition-duration: .5s;
+}
+
+.notice{
+    font-size: 13px!important;
+    margin: 150px auto 150px 50px;
+}
+.notice2{
+    font-size: 13px!important;
+}
+.bg-dark{
+    background-color: black!important;
+    padding:40px 0px;
+}
+.lh{
+    line-height: 1.4em;
+}

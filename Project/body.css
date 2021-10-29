@@ -1,0 +1,214 @@
+body{
+    overflow-x: hidden;
+}
+.first{
+    width: 100vw;
+    height: 30vw;
+    background-image: url(".\\Image+Site\\first\\1.webp");
+    background-repeat: no-repeat;
+    overflow: hidden;
+    background-size: 100vw auto;
+}
+
+.learn{
+    width: 17vw;
+    height: 4vw;
+    padding: auto;
+    border: none;
+    font-size: 1.1vw;
+    background-color: white;
+}
+.learn:hover{
+    background-color: rgb(192, 192, 192);
+}
+.mb-5{
+    margin-bottom: 100px!important;
+}
+.img1{
+    width: 100%;
+    height: 550px;
+}
+
+#know .col-3{
+    flex-basis: 31%!important;
+    max-width: 31%!important;
+    margin-bottom: 95px;
+}
+#know p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.img2{
+    width: 100%;
+}
+.a{
+    text-decoration: none;
+}
+.btn-dark{
+    background-color: black;
+    width: 40%;
+    padding: 15px!important;
+}
+.btn-dark:hover{
+    background-color: rgba(0, 0, 0, 0.699);
+}
+
+
+.bg-light{
+    background-color: rgb(242, 242, 242)!important;
+}
+
+.row{
+    margin: 0px;
+}
+.button{
+    background: none;
+    border: white 1px solid;
+    color: white;
+    bottom: 0px;
+}
+.button:hover{
+    border: rgba(255, 255, 255, 0.555) 1px solid;
+    color:  rgba(255, 255, 255, 0.555);
+}
+
+.font-btn{
+    font-size: 20px;
+}
+
+#social .col-3{
+    flex-basis: 31%!important;
+    max-width: 31%!important;
+    margin-bottom: 95px;
+}
+#social h4{
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+#social .icon{
+    width: 70px;
+    bottom: 2px;
+}
+
+#social .bg-light{
+    height: 190px;
+    box-sizing: border-box;
+}
+h1{
+    font-size: 35px;
+    letter-spacing: 2px;
+}
+
+#b-footer{
+    height: 450px;
+    line-height: 40px;
+}
+#b-footer .models{
+    margin:0px 150px 0px 50px!important;
+}
+
+#b-footer button{
+    border: none;
+    display: block;
+    background-color: unset;
+    outline: none;
+    font-weight: lighter!important;
+    font-size: 14px;
+    padding: 0;
+}
+
+/* slide */
+#car1 .btn, #car2 .btn {
+    width: 45px;
+    height: 45px;
+    padding: 6px!important;
+    border: none;
+    transition: none;
+}
+
+#car1 .btn:hover, #car2 .btn:hover {
+    background-color: rgb(167, 167, 167);
+}
+
+.glider1 a, .glider2 a, .set-0 a{
+    color: unset;
+    cursor: pointer;
+}
+
+.glider1 a:hover, .glider2 a:hover, .set-0 a:hover{
+    font-weight: bold;
+}
+.glider1 a img:hover, .glider2 a img:hover, .set-0 a img:hover{
+    transition: .4s;
+    transform: scale(1.05);
+}
+
+.disabled{
+    transition: none;
+    opacity: 0;
+}
+.glider-prev1, .glider-prev2{
+    border: none;
+    background: none;
+    border-right: black 0.5px solid;
+    margin-left: -20px;
+    margin-top: 4px;
+    padding-right: 20px;
+    top:0;
+    outline: none!important;
+    height: 5em;
+
+}.glider-next1, .glider-next2 {
+    border: none;
+    background: none;
+    border-left: black 0.5px solid;
+    margin-right: -20px;
+    padding-left: 20px;
+    margin-top: 4px;
+    outline: none!important;
+    height: 5em;
+}
+#data1 button, #data2 button {
+    transform: none;
+    width: 70px;
+    height: 100px;
+}
+.glider-prev1 img,.glider-prev2 img{
+    margin-right: -25px;
+    transform: none;
+    width: 50px;
+    height: 70px;
+}
+.glider-next1 img, .glider-next2 img{
+    margin-left: -25px;
+    transform: none;
+    width: 50px;
+    height: 70px;
+}
+#BMB a .active{
+    border-bottom: 0.3px solid black;
+    color: black!important;
+    cursor: default;
+}
+
+.disable-select {
+    -webkit-user-select: none;  
+    -moz-user-select: none;    
+    -ms-user-select: none;      
+    user-select: none;
+  }
+
+.hide{
+    display: none;
+    height: 0;
+    width: 0;
+}
+
+.w-50{
+    width: 220px!important;
+}
+.glider-slide{
+    min-width: 220px;
+}

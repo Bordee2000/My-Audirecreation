@@ -1,0 +1,322 @@
+.banner{
+    margin-bottom: 50px;
+    position: relative;
+}
+.bottom-left {
+    position: absolute;
+    top: 580px;
+    left: 60px;
+    color: #fff;
+}
+.h1_banner{
+    font-size: 35px;
+    position: absolute;
+    margin: 50px 50px;
+    color: white;
+    top: 0;
+    left: 0;
+}
+
+.text-block-middle{
+    width: 70%;
+    position: absolute;
+    padding: 2vw;
+  background-color: white;
+  color:black;
+  padding-left: 20px;
+  padding-right: 20px;
+  top: 25px;
+  left: 15%;
+}
+.text-block-middle2{
+    width: 70%;
+    position: absolute;
+    padding: 2vw;
+  background-color: white;
+  color:black;
+  padding-left: 20px;
+  top: 80vw;
+  left: 9%;
+}
+
+.pdf_bar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 102px;
+}
+.color_bar{
+    display: flex;
+    align-items: left;
+    margin-bottom: 25px;
+}
+.icon{
+    width: 20%;
+    margin-left: 40px;
+    margin-right: 40px;
+    cursor: pointer;
+}
+.iconcolor{
+    width: 65%;
+    padding: 0px 0.1vw;
+    cursor: pointer;
+}
+
+.middle{
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.p_middle{
+    text-align: center; 
+    width: 60%;
+    margin:0 auto;
+    font-size: 16.5px;
+    margin-bottom: 42px;    
+}
+.p_hightlight{
+    text-align: center; 
+    width: 12.8%;
+    margin:0 auto;
+    font-size: 16.5px;
+    border-bottom: white solid 2px;
+}
+.h1_middle{
+    font-size: 56px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.h2_middle{
+    font-size: 35px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+}
+
+.picture_showing{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.picture_sh{
+    width: 75%;
+}
+.image_slide{
+    margin-right: 5px;
+}
+.circle{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: inline-block;
+    height: 45px;
+    position: absolute;
+    right: 12px;
+    width: 45px;
+    z-index: 3;
+    transform: rotate(45deg);
+}
+.prior{
+    color: #fff;
+}
+.p_hidden{
+    z-index: -1;
+    position: absolute;
+    top: 10px;
+    opacity: 0;
+}
+.picture_bar{
+    margin-bottom: 2em;
+}
+.note{
+    margin-top: 10em;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 10em;
+    font-size: 14px;
+}
+.picture_black_first{
+    margin-bottom: 10em;
+    margin-top: 10em;
+}
+
+.p_left{
+    width: 60%;
+    /* margin:0 auto; */
+    font-size: 16px;
+    margin-bottom: 42px;   
+    margin-left: 12em; 
+}
+.h1_left{
+    font-size: 2rem;
+    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-left: 6em;
+}
+.exterior{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2em;
+    margin-bottom: 4em;
+}
+.circle_main{
+    text-align: center;
+}
+.circle_2{
+    background-color: #000;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.circle_3{
+    background-color: #fff;
+    border-radius: 45px;
+    bottom: 12px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 45px;
+    width: 45px;
+    margin-left: auto;
+    margin-right: auto;
+    transform: rotate(45deg);
+    z-index: 3;
+}
+.hidden{
+    padding-top: 15em;
+    color: white;
+    background-color: rgb(76, 76, 76);
+    height: 0; 
+    display: none;
+    padding-bottom: 5em;
+}
+.hidden_h1{
+    margin-left: 20%;
+    margin-bottom: 2em;
+}
+.hidden_content{
+    margin-bottom: 10em;
+}
+.View, .View2, .View3, .View4{
+    margin-right: 2em;
+}
+.View:link{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:visited{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.View:hover{
+    margin-right: 2em;
+    text-decoration: none;
+    color: rgb(74, 74, 74);
+}
+
+.View2:hover, .View3:hover, .View4:hover{
+    margin-right: 2em;
+    text-decoration: none;
+    color: rgb(110, 110, 110);
+}
+
+.View:active{
+    margin-right: 2em;
+    text-decoration: none;
+}
+.text-second{
+    color: gray;
+}
+.View_active{
+    color: black;
+    border-bottom: 2px solid black;
+}
+
+.View_active2{
+    color:black;
+    border-bottom: 2px solid black;
+}
+
+.more_exterior{
+    margin-bottom: 5em;
+}
+
+.more_exterior_black{
+    padding-bottom: 8em;
+}
+.black{
+    background-color: black;
+}
+.circle_black{
+    padding-top: 2em;
+}
+.rotation{
+    transition-duration: .5s;
+}
+
+.h1_middle_black{
+    width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p_middle_black{
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p_hidden_black{
+    margin-top: 5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.p_hidden_black_sec{
+    margin-top: 5em;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+}
+.picture_black_sec{
+    margin-bottom: 6em;
+    margin-top: 10em;
+}
+.notes{
+    margin-top: 1em;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 1em;
+    font-size: 14px;
+}
+.notes_final{
+    margin-top: 1em;
+    display: flex;
+    margin-left: 7%;
+    margin-bottom: 5em;
+    font-size: 14px;
+}
+.bg-dark{
+    background-color: black!important;
+    padding:40px 0px;
+}
+.lh{
+    line-height: 1.4em;
+}
